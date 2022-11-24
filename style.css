@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    box-sizing: border-box; 
+} 
+
+
+
+body {
+    height: 100vh;    
+    position: relative;
+    background-color: rgb(153, 153, 153);
+}
+
+
+main {
+    background-color: rgb(255, 255, 255);
+    height: 90vh;
+    width: 44vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%); 
+    padding: 0.5%;
+    border-radius: 3%;
+}
+
+header {
+    display: flex;
+}
+
+.topo2 {
+    margin-left: 40%;
+}
+
+.X {
+    height: 4vh;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    font-size: 15px;
+    margin-top: 10%;
+    margin-left: 15%;
+    cursor: pointer;
+    border-radius: 40%;
+    width: 2vw;
+}
+
+.X:hover {
+    background-color: rgba(0, 0, 0, 0.123);
+}
+
+section {
+    text-align: center;
+}
+
+h1 {
+    font-size: 5vh;
+}
+
+.opc {
+    border: 1px solid rgba(17, 17, 17, 0.144);
+    background-color: white;
+    margin-bottom: 4%;
+    width: 50%;
+    padding: 1%;
+    font-size: 2.5vh;
+    border-radius: 15vh;
+    cursor: pointer;
+    height: 6vh;
+}
+
+.opc:hover {
+    background-color: rgba(0, 0, 0, 0.055);
+}
+
+#avanca {
+    background-color: black;
+    color: white;
+}
+
+#avanca:hover {
+    background-color: rgba(0, 0, 0, 0.911);
+    border-color: rgba(0, 0, 0, 0.911);
+}
+
+.cen {
+    background-color: white;
+    margin-bottom: 4%;
+    width: 50%;
+    padding: 3%;
+    font-size: 2.7vh;
+    border: 1px solid rgba(0, 0, 0, 0.267);
+    padding-left: 1%;
+    padding-right: 4%;
+}
+
+
+
+aside {
+    text-align: center;
+    font-size: 2.8vh;
+    margin-top: 5%;
+    color: rgba(14, 13, 13, 0.712);
+}
+
+a {
+    text-decoration: none;
+    color: rgba(0, 0, 255, 0.699);
+}
+
+section > p {
+    font-size: 3vh;
+    }
+
+
+@media (max-width: 1030px) {
+    .opc {
+        border: 1px solid rgba(17, 17, 17, 0.144);
+        background-color: white;
+        margin-bottom: 3%;
+        width: 40%;
+        padding: 1%;
+        font-size: 1.8vh;
+        border-radius: 10vh;
+        cursor: pointer;
+        height: 5vh;
+    } 
+    .cen {
+        background-color: white;
+        margin-bottom: 4%;
+        width: 40%;
+        padding: 3%;
+        font-size: 1.8vh;
+        border: 1px solid rgba(0, 0, 0, 0.267);
+        padding-left: 1%;
+        padding-right: 4%;
+    }
+    a {
+        text-decoration: none;
+        color: rgba(0, 0, 255, 0.699);
+        font-size: 1.8vh;
+    }
+    
+
+}
